@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+     body {
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #069edb;
+    }
+    .foto {
+        border-radius: 50%;
+        width: 200px; 
+        height: 200px; 
+        object-fit: cover;
+    }
+    header, footer {
+        background-color: #069edb;
+        color: #000000;
+        text-align: center;
+        padding: 20px 0;
+    }
+    section {
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+    table, th, td {
+        border: 3px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    caption {
+        caption-side: top;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    input[type="submit"] {
+        background-color: #000000;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+
+    }
+    input[type="submit"]:hover {
+        background-color: #555;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+    </header>
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="Minha foto/Foto Portifolio.jpg" alt="Minha Foto" class="foto">
+        <p>Sou um jovem chinês que chegou no Brasil aos 9 anos de idade e desde então adotei o 
+            país como minha casa. Tenho 20 anos, Sou músico também, toco piano, violão e canto. 
+            Moro no Brasil há 11 anos e estou atualmente cursando Ciência da Computação na 
+            Universidade Católica de Pernambuco, no 5° período.</p>
+    </section>
+    <section id="projetos-realizados">
+        <h2>Projetos Realizados</h2>
+        <p>Em 5 período da faculdade, realizei diversos projetos em diversas cadeiras, 
+            alguns eu tive muito trabalho...</p>
+        <table>
+            <caption>Alguns dos projetos realizados:</caption>
+            <tr>
+                <th>Robótica</th>
+                <th>Humanismo e Cidadania</th>
+                <th>Programação 3</th>
+                <th>Computação Gráfica</th>
+                <th>Compiladores</th>
+            </tr>
+            <tr>
+                <td>Fazer um jogo educativo</td>
+                <td>Visitar uma instituição</td>
+                <td>Criar um site de cinema</td>
+                <td>Criar uma animação com lua, sol, mar e boneco</td>
+                <td>Fazer um analisador léxico e sintático</td>
+            </tr>
+        </table>
+    </section>
+    <section id="linguagens-dominadas"> 
+        <h2>Linguagens Computacionais Dominadas/Em Processo/Dominarei Futuramente</h2> 
+        <p>Quando entrei na Unicap, a linguagem que ensinavam era apenas Java. 
+            Com isso, domino apenas a linguagem Java. Hoje os calouros possuem cadeiras 
+            ensinando outras linguagens</p>
+        <ul> 
+            <li>HTML<i>(Estou em processo para dominar, comecei ver agora no quinto período)</i></li>
+            <li>CSS<i>(Mesma coisa com CSS, comecei ver agora no quinto período)</i></li>
+            <li>JavaScript<i>(Ainda não comecei a estudar JavaScript, mas irei ver no futuro próximo, no quinto périodo também) </i></li>
+            <li>Python<i>(Não estudei Python ainda, sei que é uma linguem mais fácil, é essencial saber, dominarei futuramente)</i></li>
+            <li>Java<i>(Domino, mas, com certeza, tenho muito que aprender ainda)</i></li>
+            <li>C<i>(Estou tendo uma cadeira agora no quinto período que estou vendo C, Porém nada aprofundado, dominarei futuramente também)</i></li>
+        </ul>
+    </section>
+    <section id="Idioma"> 
+        <h2>Idiomas que eu sei falar</h2>
+        <ul>
+            <li>Mandarim(Língua mãe)</li>
+            <li>Português(Fluente)</li>
+            <li>Inglês(Intermediário)</li>
+        </ul>
+    </section>
+    <section id="Como Falar Comigo?">
+        <h2>Como Falar Comigo?</h2>
+        <p>Aqui está alguns dos meus contatos que você pode entrar em contato comigo:</p>
+        <table>
+        <tr>
+            <th>Instagram</th>
+            <th>E-mail</th>
+            <th>Discord</th>
+            <th>Telefone</th>
+        </tr>
+        <tr>
+            <td>@zhihang_</td>
+            <td>zhihaangg@gmail.com</td>
+            <td>zhihang_</td>
+            <td>(81)99565-6666</td>
+        </tr>
+    </table>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Embora não tenha experiência formal no mercado de trabalho, estou ansioso
+             para aplicar meus conhecimentos acadêmicos em um ambiente profissional. 
+             Estou aberto a oportunidades de estágio que me permitam expandir minha 
+             experiência e contribuir de forma significativa para a equipe.</p>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+    </footer>  
+</body>
+</html>
