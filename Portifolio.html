@@ -65,12 +65,32 @@
     input[type="submit"]:hover {
         background-color: #555;
     }
+    nav {
+        background-color: #358cae;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
     </style>
 </head>
 <body>
     <header>
         <h1>Meu Portfólio</h1>
     </header>
+    <nav>
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#projetos-realizados">Projetos</a>
+        <a href="#linguagens-dominadas">Linguagens</a>
+        <a href="#Idioma">Idiomas</a>
+        <a href="#contato">Contato</a>
+    </nav>
     <section id="sobre">
         <h2>Sobre Mim</h2>
         <img src="Minha foto/Foto Portifolio.jpg" alt="Minha Foto" class="foto">
@@ -78,6 +98,20 @@
             país como minha casa. Tenho 20 anos, Sou músico também, toco piano, violão e canto. 
             Moro no Brasil há 11 anos e estou atualmente cursando Ciência da Computação na 
             Universidade Católica de Pernambuco, no 5° período.</p>
+            <p>Uma música que estou escutando muito ultimamente:</p>
+            <audio controls>
+                <source src="Uma musica/City of Stars.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p>Aqui está dois vídeos meus tocando piano e violão:</p>
+            <video width="400" controls style="margin-right: 20px;">
+                <source src="Tocando Instrumento/Tocando piano.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <video width="400" controls>
+                <source src="Tocando Instrumento/Tocando violao.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
     </section>
     <section id="projetos-realizados">
         <h2>Projetos Realizados</h2>

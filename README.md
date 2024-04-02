@@ -15,3 +15,5 @@ Um formulário de contato foi implementado na seção "Contato" com campos para 
 
 Usei CSS para personalizar da aparência do portfólio com fontes, cores e espaçamentos para uma apresentação visual atraente e coesa. Usei também para deixar foto redenda, estelizar tabelas e estelizar formulário.
 
+Foi usado tag de audio e tag de video para eu colocar uma musica que eu to escutando muito ultimamente e 2 videos meus tocando instrumentos.
+
